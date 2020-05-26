@@ -32,9 +32,11 @@ html {
     font-family: "gotham";
     text-transform: uppercase;
     font-size: 1.66rem;
-    padding: 1.5rem;
+    padding-top: 4.04rem;
     text-align: center;
-    line-height: 1.66rem
+    line-height: 1.66rem;
+    width: 50.81rem;
+    margin: auto
 }
 .inscribete{
     height: 7.37rem;
@@ -56,6 +58,23 @@ html {
 }
 
 
-footer{
-    background: #000
+.footer{
+    background: #000;
+    height: 10.86rem;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    width: 59.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ideas{
+    width: 44.59rem;
+    height: 7.86rem;
+    background-image: url('../img/ideas.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
 }
