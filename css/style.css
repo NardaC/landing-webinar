@@ -1,16 +1,24 @@
+
+
+
+@font-face {
+	font-family: "gotham";
+	src: url("../fonts/Gotham-Bold.otf");
+}
+
 html {
 	font-size: 0.94vw;
 }
 .bg-image{
     width: 100vw;
-    height: 100vh;
+    height: 76.13rem;
     background-image: url('../img/bg_img.png');
     background-size:  cover;
     background-repeat: no-repeat;
     background-position: center
 }
 .section-landing{
-    width: 55%;
+    width: 59.84rem;
     margin: auto;
     background: #fff;
     height: 100%;
@@ -20,6 +28,25 @@ html {
     width: 100%;
     
 }
+.section-landing h1{
+    font-family: "gotham";
+    text-transform: uppercase;
+    font-size: 1.66rem;
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 1.66rem
+}
+.inscribete{
+    height: 7.37rem;
+    width: 34.89rem;
+    background-image: url("../img/inscribete.svg");
+    background-size: cover;
+    margin: auto
+}
+
+
+
+
 footer{
     background: #000
 }
