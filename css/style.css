@@ -43,7 +43,8 @@ html {
     width: 34.89rem;
     background-image: url("../img/inscribete.svg");
     background-size: cover;
-    margin: auto
+    margin: auto;
+    margin-top: .7rem
 }
 .box-input{
     display: flex;
@@ -62,7 +63,7 @@ html {
     background: #000;
     height: 10.86rem;
     margin: 0 auto;
-    margin-top: 2.3rem;
+    margin-top: 1.6rem;
     width: 59.84rem;
     display: flex;
     justify-content: center;
@@ -78,3 +79,9 @@ html {
     
 
 }
+
+@media (max-width: 1024px) {
+    html {
+      font-size: 4.6vw;
+    }
+}  
