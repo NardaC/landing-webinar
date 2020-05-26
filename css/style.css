@@ -40,6 +40,7 @@ html {
   background-image: url("../img/inscribete.svg");
   background-size: cover;
   margin: auto;
+  margin-top: 0.7rem;
 }
 .box-input {
   display: flex;
@@ -78,6 +79,16 @@ html {
 .div-button {
   text-align: center;
   margin-top: 1.6rem;
+}
+.footer {
+  background: #000;
+  height: 10.86rem;
+  margin: 0 auto;
+  margin-top: 1.6rem;
+  width: 59.84rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-registrar {
   width: 14.96rem;
@@ -119,18 +130,117 @@ html {
   line-height: 2.05rem;
   padding: 1px 0px;
   border: 0.11rem solid #c4a330;
-  
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #c4a330;
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #c4a330;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #c4a330;
-   opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c4a330;
+  opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #c4a330;
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c4a330;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #c4a330;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c4a330;
+}
+.ideas {
+  width: 44.59rem;
+  height: 7.86rem;
+  background-image: url("../img/ideas.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mc-field-group {
+  text-align: center;
+}
+
+.mostrar-mobile {
+  display: block;
+}
+
+.mostrar-mobile {
+  display: none;
+}
+.mostrar-desktop {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 4.6vw;
+  }
+  .mostrar-mobile {
+    display: block;
+  }
+
+  .mostrar-desktop {
+    display: none;
+  }
+
+  .bg-image {
+    background: none;
+    width: 100vw;
+    margin: 0;
+  }
+
+  .section-landing {
+    width: 100vw;
+  }
+
+  .section-landing h1 {
+    font-size: 0.89rem;
+    line-height: 0.89rem;
+    width: 17.45rem;
+    padding-top: 1.55rem;
+  }
+
+  .inscribete {
+    height: 7.2rem;
+    width: 14.96rem;
+    background-image: url("../img/inscribete-mobile.svg");
+    background-size: cover;
+    margin: auto;
+    margin-top: 0.7rem;
+  }
+
+  .footer {
+    width: 100vw;
+    height: 5.92rem;
+  }
+  .ideas {
+    width: 100%;
+    height: 5.92rem;
+    background-image: url("../img/ideas-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button-registrar {
+    width: 9.84rem;
+    height: 2.53rem;
+    font-size: 1.08rem;
+    line-height: 1.32rem;
+  }
+
+  .input-style {
+    font-size: 1.08rem;
+    line-height: 1.32rem;
+    padding: 1px 0px;
+    border: 0.11rem solid #c4a330;
+  }
+  .box-input {
+    margin-top: 1.8rem;
+  }
+  .box-input input {
+    width: 17.57rem;
+    margin: auto;
+    margin-top: 0.9rem;
+    height: 2.53rem;
+  }
 }
