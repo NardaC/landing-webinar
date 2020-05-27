@@ -4,8 +4,9 @@
 }
 
 html {
-	font-size: 0.94vw;
+  font-size: 0.94vw;
 }
+
 .bg-image{
     width: 100vw;
     height: 78.9rem;
@@ -206,7 +207,7 @@ input:focus {
 
     .inscribete{
         height: 7.2rem;
-        width: 14.96rem;
+        width: 16rem;
         background-image: url("../img/inscribete-mobile.svg");
         background-size: cover;
         margin: auto;
