@@ -54,10 +54,10 @@ if (! empty($_POST['name'])) {
   }
 
 // Construimos el mensaje
-$to = 'narda@henribarrett.com';
-$reply2 = 'contactanos@henribarrett.com';
+$to = 'webinarshenribarrett@gmail.com';
+$reply2 = 'webinar@henribarrett.com';
 $user_email = $_POST['email'];
-$subject2 = 'Mensaje automático: REGISTRADOS A WEBINAR - HENRI BARRETT';
+$subject2 = 'REGISTRADOS A WEBINAR - HENRI BARRETT';
 
 $message2 = '<div> <h3>Hay una persona que se ha registrado a WEBINAR - HENRI BARRETT .</h3><table> <tr><td>Nombre</td><td>' . $_POST['name'] . '</td></tr><tr><td>Email</td><td>' . $_POST['email'] . '</td></tr><tr><td>Empresa</td><td>' . $_POST['empresa'] . '</td></tr></table></div>';
 
@@ -69,6 +69,7 @@ echo '<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Refresh" content="4;url=http://www.henribarrett.com/webinar">
+    <link  rel="icon"   href="favicon.jpeg" type="image/jpeg" />
     <title>Estas Registrado</title>
 
     <style>

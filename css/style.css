@@ -31,6 +31,7 @@ html {
     text-transform: uppercase;
     font-size: 1.66rem;
     padding-top: 4.04rem;
+    padding-bottom: 1rem;
     text-align: center;
     line-height: 1.94rem;
     width: 50.81rem;
@@ -52,7 +53,7 @@ html {
   .box-input input {
     width: 40rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     height: 2.88rem;
     cursor: pointer
   }
@@ -68,20 +69,21 @@ html {
     align-items: center;
   }
   
-  .ideas {
+  /* .ideas {
     width: 44.59rem;
     height: 7.86rem;
-    background-image: url("../img/ideas.svg");
+    background-image: url("../img/henri.svg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
   
   .mc-field-group {
     text-align: center;
   }
   .div-button {
     text-align: center;
-    margin-top: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3.04rem;
   }
   .footer {
     background: #000;
@@ -102,13 +104,20 @@ html {
     font-size: 1.6rem;
     line-height: 2.5rem;
     /* identical to box height */
-  
     text-align: center;
     text-transform: uppercase;
-  
     color: #ffffff;
     background-color: #c4a330;
+    box-shadow:2px 1px 12px  #c4a430a8;
   }
+  .button-registrar:hover{
+    box-shadow:2px 3px 25px  #000;
+    cursor: pointer;
+    /* color: rgba(0, 0, 0, 0.863); */
+    background-color: #000;
+    border: none
+  }
+
   
   .input-style {
     -webkit-writing-mode: horizontal-tb !important;
@@ -136,26 +145,26 @@ html {
   }
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: #c4a330;
+    color: #c4a430a8;
   }
   :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #c4a330;
+    color: #c4a430a8;
     opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
   }
   ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #c4a330;
+    color: #c4a430a8;
   }
   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #c4a330;
+    color: #c4a430a8;
   }
 
 .ideas{
-    width: 44.59rem;
+    width: 19.31rem;
     height: 7.86rem;
-    background-image: url('../img/ideas.svg');
+    background-image: url('../img/henri.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -243,9 +252,9 @@ input:focus {
         height: 5.92rem;
     }
     .ideas{
-        width: 100%;
+        width: 13.92rem;
         height: 5.92rem;
-        background-image: url('../img/ideas-mobile.svg');
+        /* background-image: url('../img/ideas-mobile.svg'); */
         background-repeat: no-repeat;
         background-size: cover;
     }
