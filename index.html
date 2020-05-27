@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -15,7 +14,7 @@
     <title>Webinar</title>
 </head>
 
-<body>
+  <body>
     <main class="bg-image">
         <section class="section-landing">
             <figure>
@@ -29,22 +28,23 @@
                 </h1>
                 <figure class="inscribete"></figure>
                 <!-- Begin Mailchimp Signup Form -->
+                
                 <form
-                    action="https://henribarrett.us18.list-manage.com/subscribe/post?u=eda3b4963e43cfef42eddb028&amp;id=6d7ca02390"
+                    action="https://www.henribarrett.com/prueba/send.php" 
                     method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
+                   >
                     <div class="box-input">
                         <div id="mc_embed_signup_scroll">
                             <div class="mc-field-group">
-                                <input type="text" value="" name="FNAME" class="input-style" id="mce-FNAME"
+                                <input type="text" value="" name="name" class="input-style" id="mce-FNAME"
                                     placeholder="NOMBRES Y APELLIDOS" required autofocus />
                             </div>
                             <div class="mc-field-group">
-                                <input type="email" value="" name="EMAIL" class="input-style" id="mce-EMAIL"
+                                <input type="email" value="" name="email" class="input-style" id="mce-EMAIL"
                                     placeholder="EMAIL" required />
                             </div>
                             <div class="mc-field-group">
-                                <input type="text" value="" name="MMERGE6" class="input-style" id="mce-MMERGE6"
+                                <input type="text" value="" name="empresa" class="input-style" id="mce-MMERGE6"
                                     placeholder="EMPRESA DONDE LABORA" required />
                             </div>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -55,15 +55,36 @@
                         </div>
                     </div>
                 </form>
+                
 
                 <!--End mc_embed_signup-->
             </div>
+          </form>
 
-            <div class="footer">
-                <div class="ideas"></div>
-            </div>
-        </section>
+          <!--End mc_embed_signup-->
+        </div>
+
+        <div class="footer">
+          <div class="ideas"></div>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
+  <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '739160373528201');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=739160373528201&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
 </html>
