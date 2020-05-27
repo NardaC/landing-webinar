@@ -8,7 +8,7 @@ html {
 }
 .bg-image{
     width: 100vw;
-    height: 76.13rem;
+    height: 78.9rem;
     background-image: url('../img/bg_img.png');
     background-size:  cover;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ html {
     background: #000;
     height: 10.86rem;
     margin: 0 auto;
-    margin-top: 1.6rem;
+    margin-top: 1.97rem;
     width: 59.84rem;
     display: flex;
     justify-content: center;
@@ -97,7 +97,7 @@ html {
     height: 2.88rem;
     font-family: "Gotham";
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.6rem;
     line-height: 2.5rem;
     /* identical to box height */
@@ -127,7 +127,7 @@ html {
     margin: 0em;
     font-family: "gotham";
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.6rem;
     line-height: 2.05rem;
     padding: 1px 0px;
@@ -150,21 +150,6 @@ html {
     /* Internet Explorer 10-11 */
     color: #c4a330;
   }
-  input:focus {
-    outline: none;
-    border:0.2rem solid black;
-    box-shadow: 3px 3px 3px 2px black;
-  }
-.footer{
-    background: #000;
-    height: 10.86rem;
-    margin: 0 auto;
-    margin-top: 1.6rem;
-    width: 59.84rem;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
 
 .ideas{
     width: 44.59rem;
@@ -181,7 +166,11 @@ html {
 .mostrar-desktop{
     display: block
 }
-
+input:focus {
+    outline: none;
+    /* border:0.2rem solid black; */
+    box-shadow: 3px 3px 3px 2px black;
+  }
 
 
 
@@ -200,7 +189,8 @@ html {
 
     .bg-image{
         background: none; width: 100vw;
-        margin: 0
+        margin: 0;
+        height: 58.9rem;
     }
     
     .section-landing{
