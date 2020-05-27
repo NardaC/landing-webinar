@@ -97,7 +97,7 @@ html {
     height: 2.88rem;
     font-family: "Gotham";
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.6rem;
     line-height: 2.5rem;
     /* identical to box height */
@@ -127,7 +127,7 @@ html {
     margin: 0em;
     font-family: "gotham";
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 1.6rem;
     line-height: 2.05rem;
     padding: 1px 0px;
