@@ -1,246 +1,262 @@
 @font-face {
-  font-family: "gotham";
-  src: url("./fonts/Gotham-Bold.otf");
+	font-family: "gotham";
+	src: url("./fonts/Gotham-Bold.otf");
 }
 
 html {
-  font-size: 0.94vw;
+	font-size: 0.94vw;
 }
-.bg-image {
-  width: 100vw;
-  height: 76.13rem;
-  background-image: url("../img/bg_img.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.section-landing {
-  width: 59.84rem;
-  margin: auto;
-  background: #fff;
-  height: 100%;
-}
-
-.section-landing img {
-  width: 100%;
-}
-.section-landing h1 {
-  font-family: "gotham";
-  text-transform: uppercase;
-  font-size: 1.66rem;
-  padding-top: 4.04rem;
-  text-align: center;
-  line-height: 1.66rem;
-  width: 50.81rem;
-  margin: auto;
-}
-.inscribete {
-  height: 7.37rem;
-  width: 34.89rem;
-  background-image: url("../img/inscribete.svg");
-  background-size: cover;
-  margin: auto;
-  margin-top: 0.7rem;
-}
-.box-input {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-.box-input input {
-  width: 40rem;
-  margin: auto;
-  margin-top: 1rem;
-  height: 2.88rem;
-}
-
-.footer {
-  background: #000;
-  height: 10.86rem;
-  margin: 0 auto;
-  margin-top: 2.3rem;
-  width: 59.84rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ideas {
-  width: 44.59rem;
-  height: 7.86rem;
-  background-image: url("../img/ideas.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.mc-field-group {
-  text-align: center;
-}
-.div-button {
-  text-align: center;
-  margin-top: 1.6rem;
-}
-.footer {
-  background: #000;
-  height: 10.86rem;
-  margin: 0 auto;
-  margin-top: 1.6rem;
-  width: 59.84rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.button-registrar {
-  width: 14.96rem;
-  height: 2.88rem;
-  font-family: "Gotham";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-  /* identical to box height */
-
-  text-align: center;
-  text-transform: uppercase;
-
-  color: #ffffff;
-  background-color: #c4a330;
-}
-
-.input-style {
-  -webkit-writing-mode: horizontal-tb !important;
-  text-rendering: auto;
-  color: -internal-light-dark-color(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: center;
-  -webkit-appearance: textfield;
-  background-color: -internal-light-dark-color(white, black);
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  margin: 0em;
-  font-family: "gotham";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.6rem;
-  line-height: 2.05rem;
-  padding: 1px 0px;
-  border: 0.11rem solid #c4a330;
-}
-::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
-  color: #c4a330;
-}
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #c4a330;
-  opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
-}
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #c4a330;
-}
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #c4a330;
-}
-.ideas {
-  width: 44.59rem;
-  height: 7.86rem;
-  background-image: url("../img/ideas.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.mc-field-group {
-  text-align: center;
-}
-
-.mostrar-mobile {
-  display: block;
-}
-
-.mostrar-mobile {
-  display: none;
-}
-.mostrar-desktop {
-  display: block;
-}
-
-@media (max-width: 768px) {
-  html {
-    font-size: 4.6vw;
-  }
-  .mostrar-mobile {
-    display: block;
-  }
-
-  .mostrar-desktop {
-    display: none;
-  }
-
-  .bg-image {
-    background: none;
+.bg-image{
     width: 100vw;
-    margin: 0;
-  }
+    height: 76.13rem;
+    background-image: url('../img/bg_img.png');
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.section-landing{
+    width: 59.84rem;
+    margin: auto;
+    background: #fff;
+    height: 100%;
+}
 
-  .section-landing {
-    width: 100vw;
-  }
-
-  .section-landing h1 {
-    font-size: 0.89rem;
-    line-height: 0.89rem;
-    width: 17.45rem;
-    padding-top: 1.55rem;
-  }
-
-  .inscribete {
-    height: 7.2rem;
-    width: 14.96rem;
-    background-image: url("../img/inscribete-mobile.svg");
+.section-landing img{
+    width: 100%;
+    
+}
+.section-landing h1{
+    font-family: "gotham";
+    text-transform: uppercase;
+    font-size: 1.66rem;
+    padding-top: 4.04rem;
+    text-align: center;
+    line-height: 1.66rem;
+    width: 50.81rem;
+    margin: auto
+}
+.inscribete{
+    height: 7.37rem;
+    width: 34.89rem;
+    background-image: url("../img/inscribete.svg");
     background-size: cover;
     margin: auto;
-    margin-top: 0.7rem;
+    margin-top: .7rem
+}
+.box-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
   }
-
+  .box-input input {
+    width: 40rem;
+    margin: auto;
+    margin-top: 1rem;
+    height: 2.88rem;
+    cursor: pointer
+  }
+  
   .footer {
-    width: 100vw;
-    height: 5.92rem;
+    background: #000;
+    height: 10.86rem;
+    margin: 0 auto;
+    margin-top: 2.3rem;
+    width: 59.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  
   .ideas {
-    width: 100%;
-    height: 5.92rem;
-    background-image: url("../img/ideas-mobile.svg");
+    width: 44.59rem;
+    height: 7.86rem;
+    background-image: url("../img/ideas.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .button-registrar {
-    width: 9.84rem;
-    height: 2.53rem;
-    font-size: 1.08rem;
-    line-height: 1.32rem;
+  
+  .mc-field-group {
+    text-align: center;
   }
-
+  .div-button {
+    text-align: center;
+    margin-top: 1.6rem;
+  }
+  .footer {
+    background: #000;
+    height: 10.86rem;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    width: 59.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-registrar {
+    width: 14.96rem;
+    height: 2.88rem;
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    /* identical to box height */
+  
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+    background-color: #c4a330;
+  }
+  
   .input-style {
-    font-size: 1.08rem;
-    line-height: 1.32rem;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font-family: "gotham";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.05rem;
     padding: 1px 0px;
     border: 0.11rem solid #c4a330;
   }
-  .box-input {
-    margin-top: 1.8rem;
+  ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #c4a330;
   }
-  .box-input input {
-    width: 17.57rem;
-    margin: auto;
-    margin-top: 0.9rem;
-    height: 2.53rem;
+  :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c4a330;
+    opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
   }
+  ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c4a330;
+  }
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c4a330;
+  }
+  input:focus {
+    outline: none;
+    border:0.2rem solid black;
+    box-shadow: 3px 3px 3px 2px black;
+  }
+.footer{
+    background: #000;
+    height: 10.86rem;
+    margin: 0 auto;
+    margin-top: 1.6rem;
+    width: 59.84rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.ideas{
+    width: 44.59rem;
+    height: 7.86rem;
+    background-image: url('../img/ideas.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.mostrar-mobile{
+    display: none
+}
+.mostrar-desktop{
+    display: block
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    html {
+      font-size: 4.6vw;
+    }
+    .mostrar-mobile{
+        display: block
+    }
+
+    .mostrar-desktop{
+        display: none
+    }
+
+    .bg-image{
+        background: none; width: 100vw;
+        margin: 0
+    }
+    
+    .section-landing{
+        width: 100vw
+    }
+
+    .section-landing h1{
+        font-size: .89rem;
+        line-height: .89rem;
+        width: 17.45rem;
+        padding-top: 1.55rem;
+    }
+
+    .inscribete{
+        height: 7.2rem;
+        width: 14.96rem;
+        background-image: url("../img/inscribete-mobile.svg");
+        background-size: cover;
+        margin: auto;
+        margin-top: .7rem
+    }
+
+    .button-registrar {
+        width: 9.84rem;
+        height: 2.53rem;
+        font-size: 1.08rem;
+        line-height: 1.32rem;
+      }
+    
+      .input-style {
+        font-size: 1.08rem;
+        line-height: 1.32rem;
+        padding: 1px 0px;
+        border: 0.11rem solid #c4a330;
+      }
+      .box-input {
+        margin-top: 1.8rem;
+      }
+      .box-input input {
+        width: 17.57rem;
+        margin: auto;
+        margin-top: 0.9rem;
+        height: 2.53rem;
+      }
+
+
+    .footer{
+        width: 100vw;
+        height: 5.92rem;
+    }
+    .ideas{
+        width: 100%;
+        height: 5.92rem;
+        background-image: url('../img/ideas-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
 }
