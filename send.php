@@ -49,6 +49,10 @@ if ( ! isset($_POST['email']) ) {
 	exit;
 }
 
+if (! empty($_POST['name'])) {
+    $_POST['name']="";
+  }
+
 // Construimos el mensaje
 $to = 'narda@henribarrett.com';
 $reply1 = 'no-responder@henribarrett.com';
@@ -59,6 +63,7 @@ $subject2 = 'Mensaje automático: REGISTRADOS A WEBINAR - HENRI BARRETT';
 
 $message1 = '<div> <h3>Nos estaremos comunicando con usted pronto.</h3></div>';
 $message2 = '<div> <h3>Hay una persona que se ha registrado a WEBINAR - HENRI BARRETT .</h3><table> <tr><td>Nombre</td><td>' . $_POST['name'] . '</td></tr><tr><td>Email</td><td>' . $_POST['email'] . '</td></tr><tr><td>Empresa</td><td>' . $_POST['empresa'] . '</td></tr></table></div>';
+
 
 
 echo '<!DOCTYPE html>
@@ -167,10 +172,12 @@ echo '<!DOCTYPE html>
     </section>
 
 </body>
+
 </html>';
 
 
 send_email($reply1, $user_email, $subject1, $message1);
 send_email($reply2, $to, $subject2, $message2);
+
 
 ?>
