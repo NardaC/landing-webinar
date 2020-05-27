@@ -167,7 +167,11 @@ html {
 .mostrar-desktop{
     display: block
 }
-
+input:focus {
+    outline: none;
+    /* border:0.2rem solid black; */
+    box-shadow: 3px 3px 3px 2px black;
+  }
 
 
 
