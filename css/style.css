@@ -8,7 +8,7 @@ html {
 }
 .bg-image{
     width: 100vw;
-    height: 76.13rem;
+    height: 78.9rem;
     background-image: url('../img/bg_img.png');
     background-size:  cover;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ html {
     background: #000;
     height: 10.86rem;
     margin: 0 auto;
-    margin-top: 1.6rem;
+    margin-top: 1.97rem;
     width: 59.84rem;
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@ html {
   .button-registrar {
     width: 14.96rem;
     height: 2.88rem;
-    font-family: Gotham;
+    font-family: "Gotham";
     font-style: normal;
     font-weight: bold;
     font-size: 1.6rem;
@@ -151,16 +151,6 @@ html {
     color: #c4a330;
   }
 
-.footer{
-    background: #000;
-    height: 10.86rem;
-    margin: 0 auto;
-    margin-top: 1.6rem;
-    width: 59.84rem;
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
 
 .ideas{
     width: 44.59rem;
@@ -196,7 +186,8 @@ html {
 
     .bg-image{
         background: none; width: 100vw;
-        margin: 0
+        margin: 0;
+        height: 58.9rem;
     }
     
     .section-landing{
